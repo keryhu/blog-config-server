@@ -7,7 +7,7 @@ endpoints:
     sensitive: false
 eureka:
   username: 'blogKeryhu'
-  password: 'yyuusmm677sTTRI*mRGS45'
+  password: 'yyuusmm677sTTRImRGS45'
   instance:
     instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
     leaseRenewalIntervalInSeconds: 10
