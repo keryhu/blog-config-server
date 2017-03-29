@@ -29,13 +29,7 @@ security:
       jwt:
         keyValue: |
           -----BEGIN PUBLIC KEY-----
-          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjZ/mQWIWhzKGcXCqPnO+
-          lgL7hrHTUvth20mW2Vv9vvCQBMm6c0a7yE8MSxwxUeDUJUCXnlAiuyCkQ7/sdVWo
-          Dva+xcu6oN41WpbbAx2GZXix2eKL2csF7i5wNaL2/iH8Cp3sXBD6C1dTqAquFB82
-          LVDthYn8EeqCdltFC7CA2mntNE2Eq7FofsN/YSMFXUt0ceHDKxdNiJZlTCASkVR2
-          SDC+bjCoWdNt/rRxdkjhc+Ye5uHjBoJPlIF2v31Mzp5fIHUspCeS4gXykYU4lkZs
-          2vPhN76ttIY4iKMbOVSSx7OpL9RmB5hyvxDpxSY/+CMuA0zhw152lWHlqDR5t7NA
-          fwIDAQAB
+          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjZ/mQWIWhzKGcXCqPnO+lgL7hrHTUvth20mW2Vv9vvCQBMm6c0a7yE8MSxwxUeDUJUCXnlAiuyCkQ7/sdVWoDva+xcu6oN41WpbbAx2GZXix2eKL2csF7i5wNaL2/iH8Cp3sXBD6C1dTqAquFB82LVDthYn8EeqCdltFC7CA2mntNE2Eq7FofsN/YSMFXUt0ceHDKxdNiJZlTCASkVR2SDC+bjCoWdNt/rRxdkjhc+Ye5uHjBoJPlIF2v31Mzp5fIHUspCeS4gXykYU4lkZs2vPhN76ttIY4iKMbOVSSx7OpL9RmB5hyvxDpxSY/+CMuA0zhw152lWHlqDR5t7NAfwIDAQAB
           -----END PUBLIC KEY-----
 
 spring:
