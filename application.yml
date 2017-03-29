@@ -1,0 +1,32 @@
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false
+
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
+
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 60000
+
+security:
+  oauth2:
+    resource:
+      jwt:
+        keyValue: |
+          -----BEGIN PUBLIC KEY-----
+          MIIBtzCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9E
+          AMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f
+          6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv
+          8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtc
+          NrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwky
+          jMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/h
+          WuWfBpKLZl6Ae1UlZAFMO/7PSSoDgYQAAoGAShfKncn42bP6F9Q/WufBnhzgd35a
+          bgp2MTR/jitrKheQ0080//Qw3tlXMv+x6mZvwas+q5q1qOAgD5Zi8iBOZPoD021U
+          +ZROMIIQZQvizdU0tzS1dpGxYCwZpIyvIfBenTYCrdY+Yld5xNNjJi5PupHfjzYP
+          5OOx4/Qt97icdvA=
+          -----END PUBLIC KEY-----
+
